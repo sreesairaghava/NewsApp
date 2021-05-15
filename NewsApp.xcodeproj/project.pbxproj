@@ -13,6 +13,9 @@
 		0432F6BE264D6144000461AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432F6BC264D6144000461AC /* Main.storyboard */; };
 		0432F6C0264D6147000461AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432F6BF264D6147000461AC /* Assets.xcassets */; };
 		0432F6C3264D6147000461AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432F6C1264D6147000461AC /* LaunchScreen.storyboard */; };
+		0432F6CB264D6498000461AC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432F6CA264D6498000461AC /* APICaller.swift */; };
+		0432F6CD264D6685000461AC /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432F6CC264D6685000461AC /* SecretKey.swift */; };
+		0432F6CF264D743A000461AC /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432F6CE264D743A000461AC /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0432F6BF264D6147000461AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0432F6C2264D6147000461AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0432F6C4264D6147000461AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0432F6CA264D6498000461AC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		0432F6CC264D6685000461AC /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
+		0432F6CE264D743A000461AC /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0432F6BF264D6147000461AC /* Assets.xcassets */,
 				0432F6C1264D6147000461AC /* LaunchScreen.storyboard */,
 				0432F6C4264D6147000461AC /* Info.plist */,
+				0432F6CA264D6498000461AC /* APICaller.swift */,
+				0432F6CC264D6685000461AC /* SecretKey.swift */,
+				0432F6CE264D743A000461AC /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0432F6BB264D6144000461AC /* ViewController.swift in Sources */,
+				0432F6CD264D6685000461AC /* SecretKey.swift in Sources */,
+				0432F6CF264D743A000461AC /* NewsTableViewCell.swift in Sources */,
 				0432F6B7264D6144000461AC /* AppDelegate.swift in Sources */,
 				0432F6B9264D6144000461AC /* SceneDelegate.swift in Sources */,
+				0432F6CB264D6498000461AC /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
